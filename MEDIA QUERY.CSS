@@ -1,0 +1,23 @@
+.principal
+{
+    background-color: rgb(149, 243, 243);
+    display: flex;
+    flex-direction: row;
+}
+
+.d
+{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(150, 102, 232) ;
+    margin: 20px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .principal {
+        flex-direction: column;
+    }
+    .d{
+        background-color: rgb(87, 14, 143);
+    }
+}
